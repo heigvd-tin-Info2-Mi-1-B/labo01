@@ -1,4 +1,4 @@
-# Info1-TIN-1-A - 2019/2020 - Labo01 "Tri de texte"
+# Labo01 "Tri de texte"
 
 ## **Objectifs**
 Les principaux buts de ce travail de laboratoire sont :
