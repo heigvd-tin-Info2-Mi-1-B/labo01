@@ -95,9 +95,3 @@ void sortNames(const uint32_t numNames, char names[][NAME_MAX_SIZE])
 | option --count suivie d'aucune chaîne | 253 |
 | option --count suivie de 1 à 30 chaînes | nombre de chaînes |
 
-
-
-
-## **Délai**
-
-Les travaux sont à rendre impérativement **le dimanche 22 décembre 2019 à 23h55**.
