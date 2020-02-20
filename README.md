@@ -103,7 +103,7 @@ Pour afficher le code retour, utilisez la commande suivante dans le terminal `ec
 
 ```bash
 > ./app --count "un chat" "des chiens" "trois poules" "quatre pattes"                                           
-4
+count: 4
 
 > echo $?
 4
