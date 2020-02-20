@@ -1,7 +1,7 @@
 # Labo01 "Tri de texte"
 
 ## **Objectifs**
-Les principaux buts de ce travail de laboratoire sont :
+Les principaux buts de ce travail de laboratoire sont de :
 - utiliser les chaînes de caractères et les tableaux,
 - tester votre code.
 
@@ -84,14 +84,27 @@ void sortNames(const uint32_t numNames, char names[][NAME_MAX_SIZE])
 
 ## **Code retour du programme**
 
-| cas | code retour |
-|---|---|
-| option --help | 0 |
-| aucune option | 254 |
-| option --sort suivie de plus que 30 chaînes | 253 |
-| option --sort suivie d'aucune chaîne | 253 |
-| option --sort suivie de 1 à 30 chaînes | 0 |
-| option --count suivie de plus que 30 chaînes | 253 |
-| option --count suivie d'aucune chaîne | 253 |
-| option --count suivie de 1 à 30 chaînes | nombre de chaînes |
+| N° | cas | code retour |
+|---|---|---|
+|1| option --help | 0 |
+|2| aucune option | 254 |
+|3| option --sort suivie de plus que 30 chaînes | 253 |
+|4| option --sort suivie d'aucune chaîne | 253 |
+|5| option --sort suivie de 1 à 30 chaînes | 0 |
+|6| option --count suivie de plus que 30 chaînes | 253 |
+|7| option --count suivie d'aucune chaîne | 253 |
+|8| option --count suivie de 1 à 30 chaînes | nombre de chaînes |
 
+## Test du programme
+
+Insérez, sous la forme d'un commentaire à la fin de votre code source, la copie des tests que vous avez effectués (copier-coller des informations visibles dans le terminal).
+
+Pour afficher le code retour, utilisez la commande suivante dans le terminal `echo $?`
+
+```bash
+> ./app --count "un chat" "des chiens" "trois poules" "quatre pattes"                                           
+4
+
+> echo $?
+4
+```
