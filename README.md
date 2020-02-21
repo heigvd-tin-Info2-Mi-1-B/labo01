@@ -25,10 +25,6 @@ Pour que le programme fonctionne correctement, on considère que le nombre maxim
 
 La taille maximale d'une chaîne (`\0` inclus) est de 128 caractères.
 
-```bash
-> ./app --names chien chat poule mouton cheval
-chat, cheval, chien, mouton, poule.
-```
 
 ```bash
 > ./app --sort sed ut perspiciatis unde omnis iste natus error sit
